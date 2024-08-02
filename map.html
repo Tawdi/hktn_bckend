@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte et Texte</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-markercluster@1.7.0/dist/MarkerCluster.Default.css" />
+    <link rel="shortcut icon" href="images/analyse-de-sol.png" type="image/x-icon">
+    <link rel="stylesheet" href="public/css/map.css">
+
+    
+
+</head>
+<body>
+    
+      <div class="head">
+        <div class="logo">
+          SOL
+        </div>
+        <nav class="menu">
+          <ul class="links">
+            <li><a href="index.html">acceuil</a></li>
+            <li><a href="index.html#ap">analyse de sol</a></li>
+            <li><a href="map.html">carte géographique</a></li>
+            <li><a href="index.html#ftr">contact</a></li>
+  
+          </ul>
+            
+        </nav>
+  
+    </div>
+   
+    <svg class="burger" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+    </svg>
+    <nav class="phone hidden">
+        <ul class="phoneUl">
+          <li><a href="#">acceuil</a></li>
+            <li><a href="#ana">analyse de sol</a></li>
+            <li><a href="map.html">carte géographique</a></li>
+            <li><a href="#ftr">contact</a></li>
+        </ul>
+    </nav>
+     
+     
+    
+    <div class="container">
+        <div id="map"></div>
+        <div class="text-content">
+            <h1>Carte d'Analyse des Sols - Région de Safi</h1>
+            <div class="text-box">
+                <p>La carte interactive de la région de Safi fournit une vue détaillée des propriétés des sols, incluant la matière organique, le pH, le phosphore (P2O5), le potassium (K2O) et la salinité (Ec). Ces données sont essentielles pour optimiser les pratiques agricoles, gérer les ressources naturelles et évaluer la fertilité du sol. Les échantillons ont été prélevés à divers points de la région, et les résultats sont visualisés pour faciliter l'interprétation. La carte aide à adapter les pratiques agricoles et à assurer une gestion environnementale efficace.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" /> -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-markercluster@1.7.0/dist/leaflet-markercluster.js"></script>
+    <script src="public/js/map.js"></script>
+    <script src="public/js/main.js"></script>
+
+</body>
+</html>
+
+    
+    
